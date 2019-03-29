@@ -1,13 +1,18 @@
 import React from "react";
-import './project.css';
+import "./project.css";
 
 const Project = props => {
   return (
-    <a className="projectCard" href={props.link} target="_blank">
-      <img 
-        className="projectImage" 
-        src={require(`../images/${props.project}.jpg`)} 
-        alt={props.project} 
+    <a
+      className="projectCard"
+      href={props.link}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        className="projectImage"
+        src={require(`../images/${props.project}.jpg`)}
+        alt={props.project}
       />
       <p className="description">{props.description}</p>
     </a>
