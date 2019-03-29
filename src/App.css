@@ -1,33 +1,105 @@
-.App {
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  background-image: url("./images/blue-background.jpg");
+  background-size: cover;
+  color: #DCAE1D;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectSection {
+  background: #87d0e2;
+  min-height: 400px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.projectTitle {
+  color: #DCAE1D;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 200px 0 200px;
+}
+
+@media(max-width: 1000px){
+  .projects {
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
+.contact {
+  background: rgb(2, 17, 61);
+  height: 220px;
+  color: #DCAE1D;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contactIcons {
+  padding: 30px 500px 0 500px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+@media(max-width: 1240px){
+  .contactIcons {
+    padding: 0 200px 0 200px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media(max-width: 700px){
+  .contactIcons {
+    padding: 0 100px 0 100px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media(max-width: 450px){
+  .contactIcons {
+    padding: 0 50px 0 50px;
   }
+}
+
+.myPicture {
+  max-width: 15%;
+  min-width: 200px;
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+  color: #DCAE1D;
+  font-size: 50px;
+}
+.fa-linkedin:hover {
+  color: rgb(255, 147, 47);
+}
+
+.fa-envelope {
+  color: #DCAE1D;
+  font-size: 50px;
+}
+.fa-envelope:hover {
+  color: rgb(255, 147, 47);
+}
+
+.fa-github {
+  color: #DCAE1D;
+  font-size: 50px;
+}
+.fa-github:hover {
+  color: rgb(255, 147, 47);
 }
