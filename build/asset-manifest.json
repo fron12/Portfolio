@@ -1,0 +1,19 @@
+{
+  "main.css": "/Portfolio/static/css/main.e9b97d32.chunk.css",
+  "main.js": "/Portfolio/static/js/main.9a63b1fd.chunk.js",
+  "main.js.map": "/Portfolio/static/js/main.9a63b1fd.chunk.js.map",
+  "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
+  "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
+  "static/js/2.726ea24c.chunk.js": "/Portfolio/static/js/2.726ea24c.chunk.js",
+  "static/js/2.726ea24c.chunk.js.map": "/Portfolio/static/js/2.726ea24c.chunk.js.map",
+  "index.html": "/Portfolio/index.html",
+  "precache-manifest.8fc9ef2860e7f8124e418ae27c77cc96.js": "/Portfolio/precache-manifest.8fc9ef2860e7f8124e418ae27c77cc96.js",
+  "service-worker.js": "/Portfolio/service-worker.js",
+  "static/css/main.e9b97d32.chunk.css.map": "/Portfolio/static/css/main.e9b97d32.chunk.css.map",
+  "static/media/Conway'sGameofLife.jpg": "/Portfolio/static/media/Conway'sGameofLife.749e7c53.jpg",
+  "static/media/Don'tSendThatEmail.jpg": "/Portfolio/static/media/Don'tSendThatEmail.3a9fadda.jpg",
+  "static/media/InstaClone.jpg": "/Portfolio/static/media/InstaClone.f6233c43.jpg",
+  "static/media/LambdaNotes.jpg": "/Portfolio/static/media/LambdaNotes.2b94b365.jpg",
+  "static/media/Me.jpg": "/Portfolio/static/media/Me.3f9d4909.jpg",
+  "static/media/blue-background.jpg": "/Portfolio/static/media/blue-background.e88312cd.jpg"
+}
