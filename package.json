@@ -33,6 +33,5 @@
   ],
   "devDependencies": {
     "@babel/helper-regex": "^7.0.0"
-  },
-  "homepage": "https://fron12.github.io/Portfolio"
+  }
 }
