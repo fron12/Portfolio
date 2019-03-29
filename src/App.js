@@ -15,7 +15,7 @@ class App extends Component {
       <div className="container">
         <div className="intro">
           <img className="myPicture show" src={Me} alt="me" />
-          <h1 className="show">Hi, I'm Fred, a software developer. </h1>
+          <h1 className="show">Hi, I'm Fred, a software developer.</h1>
         </div>
         <div className="projectSection">
           <h1 className="projectTitle">Projects</h1>
