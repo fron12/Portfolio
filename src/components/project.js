@@ -1,21 +1,24 @@
 import React from "react";
 import "./project.css";
+import Icon from "./icon.js";
 
 const Project = props => {
   return (
-    <a
-      className="projectCard"
-      href={props.link}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img
-        className="projectImage"
-        src={require(`../images/${props.project}.jpg`)}
-        alt={props.project}
-      />
+    <div className="projectCard">
+      <a
+        href={props.link}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          className="projectImage"
+          src={require(`../images/${props.project}.jpg`)}
+          alt={props.project}
+        />
+      </a>
       <p className="description">{props.description}</p>
-    </a>
+      <Icon myIcon={["fab", "github"]} link={props.githublink} />
+    </div>
   );
 };
 
