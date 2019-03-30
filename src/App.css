@@ -58,19 +58,19 @@
 
 @media(max-width: 1240px){
   .contactIcons {
-    padding: 0 200px 0 200px;
+    padding: 30px 200px 30px 200px;
   }
 }
 
 @media(max-width: 700px){
   .contactIcons {
-    padding: 0 100px 0 100px;
+    padding: 30px 100px 30px 100px;
   }
 }
 
 @media(max-width: 450px){
   .contactIcons {
-    padding: 0 50px 0 50px;
+    padding: 30px 50px 30px 50px;
   }
 }
 
@@ -80,26 +80,25 @@
   border-radius: 50%;
 }
 
+.email {
+  color: rgb(32, 170, 204);
+}
+.email:hover {
+  color: rgb(99, 82, 27);
+}
+
 .fa-linkedin {
-  color: #DCAE1D;
+  color: rgb(32, 170, 204);
   font-size: 50px;
 }
 .fa-linkedin:hover {
-  color: rgb(255, 147, 47);
-}
-
-.fa-envelope {
-  color: #DCAE1D;
-  font-size: 50px;
-}
-.fa-envelope:hover {
-  color: rgb(255, 147, 47);
+  color: rgb(99, 82, 27);
 }
 
 .fa-github {
-  color: #DCAE1D;
+  color: rgb(32, 170, 204);
   font-size: 50px;
 }
 .fa-github:hover {
-  color: rgb(255, 147, 47);
+  color: rgb(99, 82, 27);;
 }
