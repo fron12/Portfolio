@@ -34,7 +34,7 @@ class App extends Component {
             />
             <Project 
               project="LambdaNotes"
-              link="https://fred-sohn-lambda-notes.netlify.com/"
+              link="#"
               githublink="https://github.com/fron12/back-end-project-week"
               description="A note taking app in which users can create, edit, and delete notes"
             />
