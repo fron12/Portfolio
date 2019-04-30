@@ -51,6 +51,7 @@ class App extends Component {
             {
               this.state.projectList.map(project => 
                 <Project  
+                  key={project.projectName + project.description}
                   projectName={project.projectName}
                   githubLink={project.githubLink}
                   link={project.link}
