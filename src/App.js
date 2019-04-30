@@ -10,6 +10,34 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 library.add(fab, faEnvelope);
 
 class App extends Component {
+  state = {
+    projectList: [
+      { 
+        projectName: "Don'tSendThatEmail",
+        link: "https://www.dontsendthatemail.app/",
+        githubLink: "https://github.com/Lambda-School-Labs/dont-send-that-email",
+        description: "Lets users analyze their emails for emotion using IBM Watson"
+      },
+      {
+        projectName: "InstaClone",
+        link: "https://fron12.github.io/React-Insta-Clone/",
+        githubLink: "https://github.com/fron12/React-Insta-Clone",
+        description: "A fake Instagram page with a search filter, like increment, and comment function"
+      },
+      {
+        projectName: "LambdaNotes",
+        link: "#",
+        githubLink: "#",
+        description: "A note taking app in which users can create, edit, and delete notes"
+      },
+      {
+        projectName: "Conway'sGameofLife",
+        githubLink: "https://github.com/fron12/Conways-Life",
+        link: "https://fron12.github.io/Conways-Life/",
+        description: "An app that demonstrates Conway's Game of Life"
+      }
+    ]
+  }
   render() {
     return (
       <div className="container">
@@ -20,30 +48,16 @@ class App extends Component {
         <div className="projectSection">
           <h1 className="projectTitle">Projects</h1>
           <div className="projects">
-            <Project 
-              project="Don'tSendThatEmail"
-              link="https://www.dontsendthatemail.app/"
-              githublink="https://github.com/Lambda-School-Labs/dont-send-that-email"
-              description="Lets users analyze their emails for emotion using IBM Watson"
-            />
-            <Project 
-              project="InstaClone"
-              link="https://fron12.github.io/React-Insta-Clone/"
-              githublink="https://github.com/fron12/React-Insta-Clone"
-              description="A fake Instagram page with a search filter, like increment, and comment function"
-            />
-            <Project 
-              project="LambdaNotes"
-              link="#"
-              githublink="https://github.com/fron12/back-end-project-week"
-              description="A note taking app in which users can create, edit, and delete notes"
-            />
-            <Project 
-              project="Conway'sGameofLife"
-              githublink="https://github.com/fron12/Conways-Life"
-              link="https://fron12.github.io/Conways-Life/"
-              description="An app that demonstrates Conway's Game of Life"
-            />
+            {
+              this.state.projectList.map(project => 
+                <Project  
+                  projectName={project.projectName}
+                  githubLink={project.githubLink}
+                  link={project.link}
+                  description={project.description}
+                />
+              )
+            }
           </div>
         </div>
         <div className="contact">

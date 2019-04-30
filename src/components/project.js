@@ -12,12 +12,12 @@ const Project = props => {
       >
         <img
           className="projectImage"
-          src={require(`../images/${props.project}.jpg`)}
+          src={require(`../images/${props.projectName}.jpg`)}
           alt={props.project}
         />
       </a>
       <p className="description">{props.description}</p>
-      <Icon myIcon={["fab", "github"]} link={props.githublink} />
+      <Icon myIcon={["fab", "github"]} link={props.githubLink} />
     </div>
   );
 };
