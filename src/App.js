@@ -35,6 +35,12 @@ class App extends Component {
         githubLink: "https://github.com/fron12/Conways-Life",
         link: "https://fron12.github.io/Conways-Life/",
         description: "An app that demonstrates Conway's Game of Life"
+      },
+      {
+        projectName: "Pokedex",
+        githubLink: "https://github.com/fron12/pokedex",
+        link: "https://fred-sohn-pokedex.netlify.com/",
+        description: "An app that lookes like a pokedex"
       }
     ]
   }
@@ -49,9 +55,9 @@ class App extends Component {
           <h1 className="projectTitle">Projects</h1>
           <div className="projects">
             {
-              this.state.projectList.map(project => 
+              this.state.projectList.map((project, index) => 
                 <Project  
-                  key={project.projectName + project.description}
+                  key={index}
                   projectName={project.projectName}
                   githubLink={project.githubLink}
                   link={project.link}
