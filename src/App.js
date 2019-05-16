@@ -24,12 +24,12 @@ class App extends Component {
         githubLink: "https://github.com/fron12/React-Insta-Clone",
         description: "A fake Instagram page with a search filter, like increment, and comment function"
       },
-      {
-        projectName: "LambdaNotes",
-        link: "#",
-        githubLink: "#",
-        description: "A note taking app in which users can create, edit, and delete notes"
-      },
+      // {
+      //   projectName: "LambdaNotes",
+      //   link: "#",
+      //   githubLink: "#",
+      //   description: "A note taking app in which users can create, edit, and delete notes"
+      // },
       {
         projectName: "Conway'sGameofLife",
         githubLink: "https://github.com/fron12/Conways-Life",
@@ -40,7 +40,7 @@ class App extends Component {
         projectName: "Pokedex",
         githubLink: "https://github.com/fron12/pokedex",
         link: "https://fred-sohn-pokedex.netlify.com/",
-        description: "An app that lookes like a pokedex"
+        description: "An app that brings in data from pokeapi to create a pokedex, a library of pokemon."
       }
     ]
   }
