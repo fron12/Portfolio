@@ -22,7 +22,7 @@ class App extends Component {
         projectName: "InstaClone",
         link: "https://fron12.github.io/React-Insta-Clone/",
         githubLink: "https://github.com/fron12/React-Insta-Clone",
-        description: "A fake Instagram page with a search filter, like increment, and comment function"
+        description: "A fake Instagram page with a search filter and comment function"
       },
       // {
       //   projectName: "LambdaNotes",
