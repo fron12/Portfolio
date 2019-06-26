@@ -34,13 +34,19 @@ class App extends Component {
         projectName: "Conway'sGameofLife",
         githubLink: "https://github.com/fron12/Conways-Life",
         link: "https://fron12.github.io/Conways-Life/",
-        description: "An app that demonstrates Conway's Game of Life"
+        description: "An app that demonstrates Conway's Game of Life using canvas"
       },
       {
         projectName: "Pokedex",
         githubLink: "https://github.com/fron12/pokedex",
         link: "https://fred-sohn-pokedex.netlify.com/",
         description: "An app that brings in data from pokeapi to create a pokedex, a library of pokemon."
+      },
+      {
+        projectName: "OnQFinancialReplicate",
+        githubLink: "https://github.com/fron12/ModernSite",
+        link: "https://fred-sohn-onqfinancialreplicate.netlify.com/",
+        description: "A landing page I replicated from On Q Financial"  
       }
     ]
   }
