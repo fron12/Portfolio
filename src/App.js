@@ -46,7 +46,7 @@ class App extends Component {
         projectName: "OnQFinancialReplicate",
         githubLink: "https://github.com/fron12/ModernSite",
         link: "https://fred-sohn-onqfinancialreplicate.netlify.com/",
-        description: "A landing page I replicated from On Q Financial"  
+        description: "A landing page I replicated from On Q Financial (Work in Progress)"  
       }
     ]
   }
